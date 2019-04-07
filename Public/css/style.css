@@ -104,3 +104,63 @@ footer p{
 .about p{
     text-align: left;
 }
+
+
+
+.container{
+    width: 820px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+
+.section-title::after{
+    content: attr(data-subtitle);
+    display: block;
+    font-size: 16px;
+    color: #aaa;
+    padding-top: 10px;
+}
+
+.skills{
+    background: #f8f8f8;
+}
+.skills .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    width: 250px;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    padding: 60px 40px 25px;
+}
+
+.skill img{
+    border-radius: 50%;
+    border: 10px solid #fff;
+    position: absolute;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    top:-55px;
+}
+
+.skill h1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.skill .section-title{
+    margin-bottom: 95px;
+}
