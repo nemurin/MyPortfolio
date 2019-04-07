@@ -49,6 +49,10 @@ section h1{
     font-weight:normal;
     margin-bottom: 8px;
 }
+.building{
+    font-weight:normal;
+    font-size:50px;
+}
 section p{
     margin-top:0;
     font-size:14px;
@@ -147,13 +151,13 @@ footer p{
 }
 
 .skill img{
-    border-radius: 50%;
-    border: 10px solid #fff;
+    border-radius: 0%;
+    border: 0px solid #fff;
     position: absolute;
     left:0;
     right:0;
     margin: 0 auto;
-    top:-55px;
+    top:-120px;
 }
 
 .skill h1{
@@ -162,6 +166,16 @@ footer p{
     font-weight: normal;
 }
 
+.skills h3{
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
 .skill .section-title{
     margin-bottom: 95px;
+}
+
+.illust{
+    margin-bottom: 150px;
 }
